@@ -15,7 +15,8 @@ RFM analysis is a customer segmentation technique that leverages three key custo
   * Monetary Value: How much a customer spends per purchase (e.g., average order value)
 By analyzing these dimensions, you can gain valuable insights into customer behavior and tailor marketing strategies accordingly.
 
-**K-Means Clustering for Customer Segmentation**
+**K-Means Clustering for Customer Segmentation** 
+
 K-means clustering is an unsupervised machine learning algorithm that groups data points into a predefined number of clusters (k). It iteratively assigns data points to the closest cluster centroid (mean) and recalculates the centroids until a convergence criterion is met.
 
 In this context, K-means helps you group Nuorashop customers into distinct segments based on their RFM characteristics.
