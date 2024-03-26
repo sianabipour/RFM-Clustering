@@ -1,6 +1,7 @@
 import random
 import time
 import json
+import pandas as pd
 from datetime import datetime 
 
 
@@ -89,8 +90,11 @@ json_file = json.dumps(sample_file , indent=2)
 
 f = open("sample.json", "w")
 f.write(json_file)
-f.close() 
+f.close()
+ 
+with open('sample.json', 'r') as j:
+    data = json.loads(j.read())
+df = pd.json_normalize(data)
+df.to_csv('sample.csv', index=False)
 
 # print(json_creator())
-
-# print('-------------------------------')
