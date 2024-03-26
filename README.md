@@ -26,7 +26,7 @@ This project provides Python code to perform RFM clustering on a mock dataset si
 
 1. **Data Preparation:**
 
-  ***(Optional)** Generate a mock dataset using data_generator.py (for illustrative purposes).
+  * **(Optional)** Generate a mock dataset using data_generator.py (for illustrative purposes).
   * Load the provided mock dataset (or your actual data loading steps if applicable).
   * Preprocess the data as needed (e.g., handle missing values, outliers).
   * Calculate RFM scores for each customer.
@@ -51,9 +51,9 @@ This project provides Python code to perform RFM clustering on a mock dataset si
 
 **Project Structure**
 
-```rfm.py                   # The main Python script containing the implementation steps.```
-```data/                    # Directory containing the mock customer transaction data (CSV or other supported format).```
-```sample.json              # The mock dataset for Nuorashop customers.```
+```rfm.py```                   ```# The main Python script containing the implementation steps.```
+```data/```                    ```# Directory containing the mock customer transaction data (CSV or other supported format).```
+```sample.json```              ```# The mock dataset for Nuorashop customers.```
 
 **Dependencies**
 
@@ -70,5 +70,5 @@ Instructions
 2. Install the required libraries.
 3. (Optional) Run python ```data_generator.py``` to generate a mock dataset (you can skip this if using your own data).
 4. Run python ```rfm.py```.
-* The script will process the mock data (or your data if provided), perform RFM clustering, and potentially generate visualizations.
+  * The script will process the mock data (or your data if provided), perform RFM clustering, and potentially generate visualizations.
 5. Explore the output (cluster assignments, visualizations) to understand your customer segments in the context of Nuorashop.
